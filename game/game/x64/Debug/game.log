@@ -1,0 +1,121 @@
+﻿  main.cpp
+C:\Users\Bartek\source\repos\game\game\main.cpp(50,26): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(50,15): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(75,38): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(75,35): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(85,19): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(86,18): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(117,37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(117,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(124,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(124,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(131,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(131,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(143,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(143,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Bartek\source\repos\game\game\main.cpp(216,38): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(216,35): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(253,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(253,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(255,46): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(255,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(257,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(259,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(262,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(264,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(266,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(266,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(268,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(268,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(435,24): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Bartek\source\repos\game\game\main.cpp(481,95): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Bartek\source\repos\game\game\main.cpp(481,71): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+  game.vcxproj -> C:\Users\Bartek\source\repos\game\x64\Debug\game.exe
