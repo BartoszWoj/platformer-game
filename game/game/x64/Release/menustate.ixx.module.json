@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\menustate.ixx",
+        "ProvidedModule": "MenuState",
+        "ImportedModules": [
+            "State",
+            "Button",
+            "Background"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

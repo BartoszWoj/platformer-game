@@ -1,0 +1,25 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\gamestate.ixx",
+        "ProvidedModule": "GameState",
+        "ImportedModules": [
+            "State",
+            "Background",
+            "Player",
+            "BrickBlock",
+            "Slime",
+            "FinishFlag",
+            "HealthBar",
+            "MyText",
+            "Enums",
+            "Player"
+        ],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\iostream",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\fstream",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\sstream",
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\thread"
+        ]
+    }
+}

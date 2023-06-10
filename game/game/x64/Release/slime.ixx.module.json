@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\slime.ixx",
+        "ProvidedModule": "Slime",
+        "ImportedModules": [
+            "Enemy",
+            "Player"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

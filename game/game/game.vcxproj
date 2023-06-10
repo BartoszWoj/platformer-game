@@ -125,6 +125,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <EnableModules>true</EnableModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,6 +142,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <EnableModules>true</EnableModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -151,7 +153,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Background.ixx" />
+    <ClCompile Include="BrickBlock.ixx" />
+    <ClCompile Include="Button.ixx" />
+    <ClCompile Include="Enemy.ixx" />
+    <ClCompile Include="Entity.ixx" />
+    <ClCompile Include="Enums.ixx" />
+    <ClCompile Include="FinishFlag.ixx" />
+    <ClCompile Include="Game.ixx" />
+    <ClCompile Include="GameObject.ixx" />
+    <ClCompile Include="GameState.ixx" />
+    <ClCompile Include="HealthBar.ixx" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuState.ixx" />
+    <ClCompile Include="MyText.ixx" />
+    <ClCompile Include="Player.ixx" />
+    <ClCompile Include="PlayerAttack.ixx" />
+    <ClCompile Include="ResourceHolder.ixx" />
+    <ClCompile Include="Slime.ixx" />
+    <ClCompile Include="State.ixx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

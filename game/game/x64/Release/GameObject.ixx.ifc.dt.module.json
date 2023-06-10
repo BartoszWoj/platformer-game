@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\gameobject.ixx",
+        "ProvidedModule": "GameObject",
+        "ImportedModules": [
+            "Enums",
+            "ResourceHolder"
+        ],
+        "ImportedHeaderUnits": [
+            "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\include\\list",
+            "C:\\Users\\Bartek\\Desktop\\game\\\\SFML-2.5.1\\include\\SFML\\Graphics.hpp"
+        ]
+    }
+}

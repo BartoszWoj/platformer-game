@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\background.ixx",
+        "ProvidedModule": "Background",
+        "ImportedModules": [],
+        "ImportedHeaderUnits": [
+            "C:\\Users\\Bartek\\Desktop\\game\\\\SFML-2.5.1\\include\\SFML\\Graphics.hpp"
+        ]
+    }
+}

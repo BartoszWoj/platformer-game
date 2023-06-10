@@ -1,0 +1,100 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\gamestate.ixx",
+        "ProvidedModule": "GameState",
+        "Includes": [],
+        "ImportedModules": [
+            {
+                "Name": "State",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\State.ixx.ifc"
+            },
+            {
+                "Name": "Background",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Background.ixx.ifc"
+            },
+            {
+                "Name": "Player",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Player.ixx.ifc"
+            },
+            {
+                "Name": "Entity",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Entity.ixx.ifc"
+            },
+            {
+                "Name": "GameObject",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\GameObject.ixx.ifc"
+            },
+            {
+                "Name": "ResourceHolder",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\ResourceHolder.ixx.ifc"
+            },
+            {
+                "Name": "BrickBlock",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\BrickBlock.ixx.ifc"
+            },
+            {
+                "Name": "Slime",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Slime.ixx.ifc"
+            },
+            {
+                "Name": "FinishFlag",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\FinishFlag.ixx.ifc"
+            },
+            {
+                "Name": "HealthBar",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\HealthBar.ixx.ifc"
+            },
+            {
+                "Name": "MyText",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\MyText.ixx.ifc"
+            },
+            {
+                "Name": "Enums",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Enums.ixx.ifc"
+            },
+            {
+                "Name": "Enemy",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Enemy.ixx.ifc"
+            },
+            {
+                "Name": "PlayerAttack",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\PlayerAttack.ixx.ifc"
+            }
+        ],
+        "ImportedHeaderUnits": [
+            {
+                "Header": "c:\\users\\bartek\\desktop\\game\\sfml-2.5.1\\include\\sfml\\graphics.hpp",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Graphics.hpp_KFAIQXQZJS7IKOXF.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\list",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\list_B7FKA1HY0IJN7M2V.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\iostream",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\iostream_OBTPU82OJTQ3UE14.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\fstream",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\fstream_VNDC3WDXXCKU35SA.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\sstream",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\sstream_ZL166VSVNZD9FPST.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\thread",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\thread_S7EU4OR2ALRFPE54.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\regex",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\regex_T9LS53UYEX2R8CZL.ifc"
+            },
+            {
+                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\random",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\random_PBEPEOXYHE1OPUEY.ifc"
+            }
+        ]
+    }
+}

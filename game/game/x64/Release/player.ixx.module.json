@@ -1,0 +1,12 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\player.ixx",
+        "ProvidedModule": "Player",
+        "ImportedModules": [
+            "Entity",
+            "PlayerAttack"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}

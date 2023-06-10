@@ -1,0 +1,11 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\bartek\\desktop\\game\\game\\button.ixx",
+        "ProvidedModule": "Button",
+        "ImportedModules": [
+            "MyText"
+        ],
+        "ImportedHeaderUnits": []
+    }
+}
