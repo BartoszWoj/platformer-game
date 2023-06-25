@@ -1,48 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\healthbar.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\healthbar.ixx",
         "ProvidedModule": "HealthBar",
         "Includes": [],
-        "ImportedModules": [
-            {
-                "Name": "Player",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Player.ixx.ifc.dt"
-            },
-            {
-                "Name": "Entity",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Entity.ixx.ifc.dt"
-            },
-            {
-                "Name": "GameObject",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\GameObject.ixx.ifc.dt"
-            },
-            {
-                "Name": "ResourceHolder",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\ResourceHolder.ixx.ifc.dt"
-            },
-            {
-                "Name": "Enums",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Enums.ixx.ifc.dt"
-            }
-        ],
-        "ImportedHeaderUnits": [
-            {
-                "Header": "c:\\users\\bartek\\desktop\\game\\sfml-2.5.1\\include\\sfml\\graphics.hpp",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Graphics.hpp_ABB8FB9F4446BC5.ifc.dt"
-            },
-            {
-                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\list",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\list_A67DC5A153859375.ifc.dt"
-            },
-            {
-                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\fstream",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\fstream_52E3F9F8D77418AD.ifc.dt"
-            },
-            {
-                "Header": "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\regex",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\regex_A2C52E2CA5E69F4C.ifc.dt"
-            }
-        ]
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
     }
 }

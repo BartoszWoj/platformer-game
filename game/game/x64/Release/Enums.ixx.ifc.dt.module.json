@@ -1,7 +1,7 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\enums.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\enums.ixx",
         "ProvidedModule": "Enums",
         "ImportedModules": [],
         "ImportedHeaderUnits": []

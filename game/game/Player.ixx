@@ -50,7 +50,7 @@ export class Player final : public Entity
 		{
 			this->Zreleased = 0;
 			this->isAttacking = 1;
-			list.push_back(std::make_shared<PlayerAttack>(this->sprite.getGlobalBounds(), this->facingLeft));
+			list.push_back(std::make_shared<PlayerAttack>(this->getHitbox(), this->facingLeft));
 		}
 	}
 	void receiveDamage(CollisionSide side)override
@@ -128,6 +128,13 @@ public:
 		this->jumpHeight = 8;
 
 	}
+	sf::FloatRect getHitbox() override
+	{
+		sf::FloatRect hitbox = sprite.getGlobalBounds();
+		hitbox.left += 12;
+		hitbox.width -= 24;
+		return hitbox;
+	}
 	void updateObject(std::list<std::shared_ptr<GameObject>>& list) override
 	{
 		if (this->HP > 0)
@@ -149,6 +156,10 @@ public:
 			receiveDamage(side);
 			break;
 		}
+	}
+	void setPosition(float left, float top)override
+	{
+		sprite.setPosition(left - 12, top);
 	}
 	void draw(sf::RenderTarget& target) override
 	{

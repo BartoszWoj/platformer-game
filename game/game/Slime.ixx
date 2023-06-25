@@ -19,6 +19,13 @@ public:
 		this->maxXVelocity = 1;
 		this->jumpHeight = 5;
 	}
+	sf::FloatRect getHitbox() override
+	{
+		sf::FloatRect hitbox = sprite.getGlobalBounds();
+		hitbox.top += 14;
+		hitbox.height -= 14;
+		return hitbox;
+	}
 	void animate()override
 	{
 		int animation;
@@ -43,6 +50,10 @@ public:
 			this->animationTimer.restart();
 		}
 		this->sprite.setTextureRect(this->currentFrame);
+	}
+	void setPosition(float left, float top)override
+	{
+		sprite.setPosition(left, top - 14);
 	}
 	virtual void jump() {}
 	virtual void attack() {}

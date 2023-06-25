@@ -1,14 +1,14 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\state.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\state.ixx",
         "ProvidedModule": "State",
         "Includes": [],
         "ImportedModules": [],
         "ImportedHeaderUnits": [
             {
-                "Header": "c:\\users\\bartek\\desktop\\game\\sfml-2.5.1\\include\\sfml\\graphics.hpp",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Graphics.hpp_KFAIQXQZJS7IKOXF.ifc"
+                "Header": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\sfml-2.5.1\\include\\sfml\\graphics.hpp",
+                "BMI": "C:\\Users\\Bartek\\Desktop\\cp3\\platformer-game-main\\game\\game\\x64\\Release\\Graphics.hpp_H6QUVBRJ3MONTY4V.ifc"
             }
         ]
     }

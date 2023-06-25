@@ -11,6 +11,7 @@ protected:
 	sf::Texture textures;
 	sf::Sprite sprite;
 	sf::Vector2f velocity;
+	sf::IntRect hitbox;
 
 	ObjectType objectType;
 
@@ -37,6 +38,10 @@ public:
 	virtual void updateSprite()
 	{
 		this->sprite.move(this->velocity.x, this->velocity.y);
+	}
+	virtual sf::FloatRect getHitbox()
+	{
+		return sprite.getGlobalBounds();
 	}
 	virtual void draw(sf::RenderTarget& target)
 	{

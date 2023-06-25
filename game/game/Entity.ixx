@@ -1,5 +1,6 @@
 export module Entity;
 export import GameObject;
+import <iostream>;
 
 export class Entity : public GameObject
 {
@@ -19,30 +20,34 @@ protected:
 
 	int HP;
 
+	virtual void setPosition(float left, float top)
+	{
+		sprite.setPosition(left, top);
+	}
 	virtual void collisionWithStaticBlock(GameObject& block, CollisionSide side)
 	{
-		sf::FloatRect thisBounds = this->getSprite().getGlobalBounds();
-		sf::FloatRect blockBounds = block.getSprite().getGlobalBounds();
+		sf::FloatRect thisHitbox = this->getHitbox();
+		sf::FloatRect blockHitbox = block.getHitbox();
 		switch (side)
 		{
 		case CollisionSide::left:
 			this->velocity.x = 0;
-			this->sprite.setPosition(blockBounds.left + blockBounds.width, thisBounds.top);
+			this->setPosition(blockHitbox.left + blockHitbox.width, thisHitbox.top);
 			break;
 
 		case CollisionSide::right:
 			this->velocity.x = 0;
-			this->sprite.setPosition(blockBounds.left - thisBounds.width, thisBounds.top);
+			this->setPosition(blockHitbox.left - thisHitbox.width, thisHitbox.top);
 			break;
 
 		case CollisionSide::top:
 			this->velocity.y = 0;
-			this->sprite.setPosition(thisBounds.left, blockBounds.top + blockBounds.height);
+			this->setPosition(thisHitbox.left, blockHitbox.top + blockHitbox.height);
 			break;
 
 		case CollisionSide::bottom:
 			this->velocity.y = 0;
-			this->sprite.setPosition(thisBounds.left, blockBounds.top - thisBounds.height);
+			this->setPosition(thisHitbox.left, blockHitbox.top - thisHitbox.height);
 			jump();
 			break;
 		}
@@ -52,10 +57,10 @@ protected:
 	{
 		if (this->velocity.y < 15)
 			this->velocity.y += 0.5;
-		if (this->sprite.getGlobalBounds().top + this->sprite.getGlobalBounds().height >= 0)
+		if (this->getHitbox().top + this->getHitbox().height >= 0)
 		{
 			this->velocity.y = 0;
-			this->sprite.setPosition(this->sprite.getGlobalBounds().left, -this->sprite.getGlobalBounds().height);
+			this->setPosition(this->getHitbox().left, -this->getHitbox().height);
 			jump();
 		}
 	}

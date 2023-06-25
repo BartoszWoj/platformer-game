@@ -1,15 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\background.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\background.ixx",
         "ProvidedModule": "Background",
         "Includes": [],
         "ImportedModules": [],
-        "ImportedHeaderUnits": [
-            {
-                "Header": "c:\\users\\bartek\\desktop\\game\\sfml-2.5.1\\include\\sfml\\graphics.hpp",
-                "BMI": "C:\\Users\\Bartek\\Desktop\\game\\game\\x64\\Release\\Graphics.hpp_ABB8FB9F4446BC5.ifc.dt"
-            }
-        ]
+        "ImportedHeaderUnits": []
     }
 }

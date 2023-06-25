@@ -50,18 +50,18 @@ protected:
 	}
 	virtual void detectPlayer()
 	{
-		sf::FloatRect playerPosition = playerPtr->getSprite().getGlobalBounds();
-		if (playerPtr->getSprite().getGlobalBounds().top > this->sprite.getGlobalBounds().top - 100
-			&& playerPtr->getSprite().getGlobalBounds().top < this->sprite.getGlobalBounds().top + 100)
+		sf::FloatRect playerPosition = playerPtr->getHitbox();
+		if (playerPtr->getHitbox().top > this->getHitbox().top - 100
+			&& playerPtr->getHitbox().top < this->getHitbox().top + 100)
 		{
-			if (playerPtr->getSprite().getGlobalBounds().left > this->sprite.getGlobalBounds().left - 100
-				&& playerPtr->getSprite().getGlobalBounds().left < this->sprite.getGlobalBounds().left)
+			if (playerPtr->getHitbox().left > this->getHitbox().left - 100
+				&& playerPtr->getHitbox().left < this->getHitbox().left)
 			{
 				this->facingLeft = 1;
 				this->isWalking = 1;
 			}
-			if (playerPtr->getSprite().getGlobalBounds().left < this->sprite.getGlobalBounds().left + 100
-				&& playerPtr->getSprite().getGlobalBounds().left > this->sprite.getGlobalBounds().left)
+			if (playerPtr->getHitbox().left < this->getHitbox().left + 100
+				&& playerPtr->getHitbox().left > this->getHitbox().left)
 			{
 				this->facingLeft = 0;
 				this->isWalking = 1;

@@ -1,7 +1,7 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\game.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\game.ixx",
         "ProvidedModule": "Game",
         "ImportedModules": [
             "MenuState",

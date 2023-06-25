@@ -1,11 +1,11 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\users\\bartek\\desktop\\game\\game\\state.ixx",
+        "Source": "c:\\users\\bartek\\desktop\\cp3\\platformer-game-main\\game\\game\\state.ixx",
         "ProvidedModule": "State",
         "ImportedModules": [],
         "ImportedHeaderUnits": [
-            "C:\\Users\\Bartek\\Desktop\\game\\\\SFML-2.5.1\\include\\SFML\\Graphics.hpp"
+            "C:\\Users\\Bartek\\Desktop\\cp3\\platformer-game-main\\game\\\\SFML-2.5.1\\include\\SFML\\Graphics.hpp"
         ]
     }
 }

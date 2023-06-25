@@ -51,11 +51,11 @@ export class GameState final : public State
 
 	void determineCollision(GameObject* o1, GameObject* o2)
 	{
-		sf::FloatRect position1 = o1->getSprite().getGlobalBounds();
+		sf::FloatRect position1 = o1->getHitbox();
 		sf::FloatRect nextPosition1 = position1;
 		nextPosition1.left += o1->getVelocity().x;
 		nextPosition1.top += o1->getVelocity().y;
-		sf::FloatRect position2 = o2->getSprite().getGlobalBounds();
+		sf::FloatRect position2 = o2->getHitbox();
 		sf::FloatRect nextPosition2 = position2;
 		nextPosition2.left += o2->getVelocity().x;
 		nextPosition2.top += o2->getVelocity().y;
